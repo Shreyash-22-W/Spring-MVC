@@ -19,4 +19,15 @@ public class StudentController {
         return "home-page";
 
     }
+
+    @GetMapping("Student/home/v2")
+    public String showsStudentHomePage2() {
+        return "home-page";
+    }
+
+    @GetMapping("Student/home/v4")
+    public String showsStudentHomePage3() {
+        return "home-page";
+    }
+
 }
